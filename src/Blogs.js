@@ -6,7 +6,7 @@ import BlogContent from "./Files/BlogContent";
 
 export default function Blogs(props){
     
-    function getShitDone(e){
+    function getItDone(e){
         props.handleClick(e)
     }
 
@@ -14,7 +14,7 @@ export default function Blogs(props){
         <main className="main--screen blogs">
             <BlogHeader />
             <div className='blog-wave wave'></div>
-            <BlogContent handleClick={getShitDone} />
+            <BlogContent handleClick={getItDone} />
             <div className='footer-wave wave2'></div>
             <Footer />
         </main>   
